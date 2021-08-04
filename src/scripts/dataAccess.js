@@ -4,7 +4,7 @@ const applicationState = {
     requests: []
 }
 
-const API = "https://localhost:8088"
+const API = "http://localhost:8088"
 
 export const fetchRequests = () => {
     return fetch(`${API}/requests`)
@@ -35,4 +35,3 @@ export const sendRequest = (userServiceRequest) => {
             mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
         )
     }
-}

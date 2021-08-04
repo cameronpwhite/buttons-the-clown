@@ -1,6 +1,6 @@
 import { ServiceForm } from "./ServiceForm.js"
 
-export const SinkRepair = () => {
+export const Buttons = () => {
     return `
         <h1>Buttons the Clown</h1>
         <section class="serviceForm">

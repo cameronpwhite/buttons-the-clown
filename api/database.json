@@ -1,8 +1,9 @@
 {
     "parent": [],
     "child": [],
-    "numberOfChildren": [],
+    "numberOfGuests": [],
     "address": [],
     "date": [],
-    "reservationLength": []
+    "reservationLength": [],
+    "requests":[]
 }

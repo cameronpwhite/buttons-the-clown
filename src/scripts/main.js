@@ -11,3 +11,10 @@ export const render = () => {
 }
 
 render()
+
+mainContainer.addEventListener("stateChanged",
+    (event) => {
+        render()
+        console.log("State changed.")
+    }
+)

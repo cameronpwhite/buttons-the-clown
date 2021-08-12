@@ -25,8 +25,8 @@ export const ServiceForm = () => {
         <div class="field">
             <label class="label" for="serviceLength">Length of reservation (in hours)</label>
             <input type="number" name="serviceLength" class="input" />
-        </div>        
-
+        </div>
+        
         <button class="button" id="submitRequest">Submit Request</button>
     `
 

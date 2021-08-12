@@ -1,9 +1,23 @@
 {
-    "parent": [],
-    "child": [],
-    "numberOfGuests": [],
-    "address": [],
-    "date": [],
-    "reservationLength": [],
-    "requests":[]
+  "parent": [],
+  "child": [],
+  "numberOfGuests": [],
+  "address": [],
+  "date": [],
+  "reservationLength": [],
+  "requests": [
+    {
+      "parent": "John",
+      "child": "Jr.",
+      "numberOfGuests": "3",
+      "address": "109 Bees St",
+      "date": "2021-10-08",
+      "reservationLength": "3",
+      "id": 1
+    }
+  ],
+  "clowns": [
+    "Buttons",
+    "Lollipop"
+  ]
 }

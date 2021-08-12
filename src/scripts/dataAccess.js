@@ -29,7 +29,7 @@ export const sendRequest = (userServiceRequest) => {
         body: JSON.stringify(userServiceRequest)
     }
 
-    return fetch(`${API}/requests/${id}`, fetchOptions) 
+    return fetch(`${API}/requests`, fetchOptions) 
         .then(res => res.json())
         .then(() =>
             mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
